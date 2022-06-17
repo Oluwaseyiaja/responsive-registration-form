@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- Stylesheets & Fonts -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Zuri Training | Responsive Registration form</title>
+  </head>
+  <body>
+    <section id="intro">
+      <div class="container">
+        <div class="signup__text">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="signup__form-container">
+          <div class="signup__form-trial">
+            <strong>Try it free 7 days</strong>
+            <small>then $20/mo. thereafter</small>
+          </div>
+          <div class="signup__form">
+            <form>
+              <div class="form__input">
+                <input
+                  type="text"
+                  class="signup__firstName"
+                  placeholder="First Name"
+                />
+                <img
+                  src="./images/icon-error.svg"
+                  alt="error-icon"
+                  class="error__icon"
+                />
+                <p class="error__text">First Name cannot be empty</p>
+              </div>
+              <div class="form__input">
+                <input
+                  type="text"
+                  class="signup__lastName"
+                  placeholder="Last Name"
+                />
+                <img
+                  src="./images/icon-error.svg"
+                  alt="error-icon"
+                  class="error__icon"
+                />
+                <p class="error__text">Last Name cannot be empty</p>
+              </div>
+              <div class="form__input">
+                <input
+                  type="email"
+                  class="signup__email"
+                  placeholder="Email Address"
+                />
+                <img
+                  src="./images/icon-error.svg"
+                  alt="error-icon"
+                  class="error__icon"
+                />
+                <p class="error__text">Looks like this is not an email</p>
+              </div>
+              <div class="form__input">
+                <input
+                  type="password"
+                  class="signup__password"
+                  placeholder="Password"
+                />
+                <img
+                  src="./images/icon-error.svg"
+                  alt="error-icon"
+                  class="error__icon"
+                />
+                <p class="error__text">Password cannot be empty</p>
+              </div>
+              <button class="signup__submit">Claim your free trial</button>
+            </form>
+            <p class="signup__form-terms">
+              By clicking the button, you are agreeing to our
+              <a href="#">Terms and Services</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Task given by
+        <a href="https://waiting.zuriboard.com/dashboard/task/74" target="_blank"
+          >Zuri Training</a
+        >. Coded by
+        <a href="https://oluwaseyiaja.github.io/Responsive-reg-form/" target="_blank"
+          >Oluwaseyi Ajayi</a
+        >.
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
